@@ -1,0 +1,28 @@
+{
+  "name": "shadow-root-web-component",
+  "version": "1.0.0",
+  "description": "A simple web-component wrapping its children in a shadow root",
+  "main": "shadow-root-web-component.cjs.js",
+  "scripts": {
+    "build": "babel shadow-root-web-component.js --out-file shadow-root-web-component.cjs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindrebilden/shadow-root-web-component.git"
+  },
+  "keywords": [
+    "web-component",
+    "shadow-root"
+  ],
+  "author": "Sindre Rannem Bilden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindrebilden/shadow-root-web-component/issues"
+  },
+  "homepage": "https://github.com/sindrebilden/shadow-root-web-component#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
